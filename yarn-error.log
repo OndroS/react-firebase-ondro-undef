@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Python27\;C:\Python27\Scripts;C:\Users\ondrej.sarnecky\AppData\Local\Programs\Python\Python37;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\ondrej.sarnecky\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\ondrej.sarnecky\AppData\Local\Programs\Python\Python37\;C:\Users\ondrej.sarnecky\AppData\Local\Microsoft\WindowsApps;C:\Users\ondrej.sarnecky\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ondrej.sarnecky\AppData\Local\hyper\app-2.1.2\resources\bin;C:\Users\ondrej.sarnecky\AppData\Local\GitHubDesktop\bin;C:\Users\ondrej.sarnecky\AppData\Roaming\npm;C:\Users\ondrej.sarnecky\AppData\Local\Programs\Git\cmd;C:\Users\ondrej.sarnecky\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, scandir 'C:\Users\ondrej.sarnecky\Documents\OndrejSarnecky\Projects\react-lrn\node_modules\@types'
+
+npm manifest: 
+  {
+    "name": "react-router-firebase-auth",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "react-scripts": "0.9.5"
+    },
+    "dependencies": {
+      "react": "^15.6.2",
+      "react-dom": "^15.6.2",
+      "bootstrap": "^3.3.7",
+      "firebase": "^3.6.1",
+      "react-csv-reader": "^1.2.2",
+      "react-router-dom": "^4.0.0-beta.8",
+      "uuid": "^3.3.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
