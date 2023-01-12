@@ -9,7 +9,7 @@
     "bootstrap": "^3.3.7",
     "firebase": "^3.6.1",
     "react": "^15.6.2",
-    "react-csv-reader": "^1.2.2",
+    "react-csv-reader": "^3.5.2",
     "react-dom": "^15.6.2",
     "react-inline-editing": "^1.0.10",
     "react-router-dom": "^4.0.0-beta.8",
